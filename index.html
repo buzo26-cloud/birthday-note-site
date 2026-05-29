@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An anonymous birthday note with a private message."
+    />
+    <title>A Quiet Birthday Note</title>
+    <link rel="preload" as="image" href="assets/birthday-note-background.png" />
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script defer src="script.js?v=4"></script>
+  </head>
+  <body class="landing-page">
+    <canvas class="particle-canvas" data-particles aria-hidden="true"></canvas>
+    <div class="page-transition" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="confetti-layer" aria-hidden="true"></div>
+
+    <main class="cinema scene-hero">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="scan-lines" aria-hidden="true"></div>
+      <div class="aurora aurora-one" aria-hidden="true"></div>
+      <div class="aurora aurora-two" aria-hidden="true"></div>
+
+      <section class="hero-copy" aria-labelledby="hero-title">
+        <p class="eyebrow">Anonymous birthday drop</p>
+        <h1 id="hero-title" class="kinetic-title">Happy Birthday</h1>
+        <p class="hero-line">One private note. Three little moments. A quiet surprise.</p>
+
+        <a class="primary-action magnetic" href="wish.html" data-transition-link>
+          <span class="button-icon arrow-icon" aria-hidden="true"></span>
+          <span>Unlock</span>
+        </a>
+      </section>
+
+      <section class="gift-stage tilt-card" aria-label="Birthday surprise">
+        <div class="holo-ring" aria-hidden="true"></div>
+        <div class="gift-box" aria-hidden="true">
+          <span class="gift-lid"></span>
+          <span class="gift-body"></span>
+          <span class="gift-ribbon-v"></span>
+          <span class="gift-ribbon-h"></span>
+          <span class="gift-light"></span>
+        </div>
+      </section>
+
+      <div class="story-progress" aria-label="Page 1 of 3">
+        <span>01</span>
+        <span></span>
+        <span>03</span>
+      </div>
+    </main>
+  </body>
+</html>

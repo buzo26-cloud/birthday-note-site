@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An anonymous birthday note with a private message."
+    />
+    <title>A Quiet Birthday Note</title>
+    <link rel="preload" as="image" href="assets/birthday-note-background.png" />
+    <link rel="stylesheet" href="styles.css?v=4" />
+    <script defer src="script.js?v=4"></script>
+  </head>
+  <body class="wish-page">
+    <canvas class="particle-canvas" data-particles aria-hidden="true"></canvas>
+    <div class="page-transition" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="confetti-layer" aria-hidden="true"></div>
+
+    <main class="cinema wish-cinema">
+      <div class="wish-spotlight" aria-hidden="true"></div>
+      <div class="floating-panels" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <section class="wish-stage tilt-card" data-confetti-card aria-label="Birthday cake">
+        <div class="vinyl-ring" aria-hidden="true"></div>
+        <div class="orbit-dots" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="mega-cake" aria-hidden="true">
+          <span class="cake-layer cake-layer-top"></span>
+          <span class="cake-layer cake-layer-mid"></span>
+          <span class="cake-layer cake-layer-bottom"></span>
+          <span class="cake-plate"></span>
+          <span class="cake-candle candle-one"></span>
+          <span class="cake-candle candle-two"></span>
+          <span class="cake-candle candle-three"></span>
+          <span class="cake-spark spark-one"></span>
+          <span class="cake-spark spark-two"></span>
+          <span class="cake-spark spark-three"></span>
+        </div>
+      </section>
+
+      <section class="wish-copy" aria-labelledby="wish-title">
+        <p class="eyebrow">Second moment</p>
+        <h1 id="wish-title" class="kinetic-title">Make a wish</h1>
+        <p class="hero-line">The final page keeps the message safe until it is ready.</p>
+
+        <div class="flip-strip" aria-hidden="true">
+          <span>birthday</span>
+          <span>note</span>
+          <span>surprise</span>
+        </div>
+
+        <a class="primary-action magnetic" href="note.html" data-transition-link>
+          <span class="button-icon arrow-icon" aria-hidden="true"></span>
+          <span>Open final page</span>
+        </a>
+      </section>
+
+      <div class="big-ticker" aria-hidden="true">
+        <div>
+          <span>Happy Birthday</span>
+          <span>Private Note</span>
+          <span>Surprise</span>
+          <span>Quiet Moment</span>
+          <span>Happy Birthday</span>
+          <span>Private Note</span>
+          <span>Surprise</span>
+          <span>Quiet Moment</span>
+        </div>
+      </div>
+
+      <div class="story-progress" aria-label="Page 2 of 3">
+        <span>02</span>
+        <span></span>
+        <span>03</span>
+      </div>
+    </main>
+  </body>
+</html>
